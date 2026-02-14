@@ -1,0 +1,99 @@
+/* === Login page animations === */
+
+/* Animated background blobs */
+.login-blob {
+    position: absolute;
+    border-radius: 50%;
+    filter: blur(80px);
+    opacity: 0.45;
+    will-change: transform;
+}
+
+.login-blob-1 {
+    width: 420px;
+    height: 420px;
+    background: radial-gradient(circle, rgba(99, 102, 241, 0.5), transparent 70%);
+    top: -10%;
+    left: -5%;
+    animation: blob-drift-1 14s ease-in-out infinite;
+}
+
+.login-blob-2 {
+    width: 360px;
+    height: 360px;
+    background: radial-gradient(circle, rgba(139, 92, 246, 0.4), transparent 70%);
+    bottom: -10%;
+    right: -5%;
+    animation: blob-drift-2 16s ease-in-out infinite;
+}
+
+.login-blob-3 {
+    width: 280px;
+    height: 280px;
+    background: radial-gradient(circle, rgba(79, 70, 229, 0.35), transparent 70%);
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    animation: blob-drift-3 12s ease-in-out infinite;
+}
+
+@keyframes blob-drift-1 {
+
+    0%,
+    100% {
+        transform: translate(0, 0) scale(1);
+    }
+
+    33% {
+        transform: translate(60px, 40px) scale(1.08);
+    }
+
+    66% {
+        transform: translate(-30px, 60px) scale(0.95);
+    }
+}
+
+@keyframes blob-drift-2 {
+
+    0%,
+    100% {
+        transform: translate(0, 0) scale(1);
+    }
+
+    33% {
+        transform: translate(-50px, -30px) scale(1.1);
+    }
+
+    66% {
+        transform: translate(40px, -50px) scale(0.92);
+    }
+}
+
+@keyframes blob-drift-3 {
+
+    0%,
+    100% {
+        transform: translate(-50%, -50%) scale(1);
+    }
+
+    50% {
+        transform: translate(-40%, -55%) scale(1.15);
+    }
+}
+
+/* Staggered fade-in for card elements */
+.login-fade-in {
+    animation: login-enter 0.7s cubic-bezier(0.16, 1, 0.3, 1) both;
+}
+
+@keyframes login-enter {
+    from {
+        opacity: 0;
+        transform: translateY(14px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
