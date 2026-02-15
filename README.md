@@ -17,7 +17,7 @@ Social hesitation
 Lack of peer collaboration
 Existing platforms fail because they are either too formal, too noisy, or too performative. Students often want to connect but hesitate due to social friction and awkwardness.
 
-Campus Connector solves this by enabling visible intent and permission-based interaction.
+JoinIn solves this by enabling visible intent and permission-based interaction.
 
 Core Concept — The Beacon System
 
@@ -87,7 +87,7 @@ Since node_modules and packages are not included in the repository, you must ins
 
 Step 1: Clone the repository
 
-git clone https://github.com/Manikanta-20-11/JoinIn.git
+git clone url
 Step 2: Navigate into the project folder
 
 cd JoinIn
@@ -115,19 +115,9 @@ dotenv (if used)
 nodemon (development)
 Vision
 
-Campus Connector aims to become the digital social infrastructure of campuses — enabling real-time collaboration, belonging, and peer support without social pressure or awkwardness.
+JoinIn aims to become the digital social infrastructure of campuses — enabling real-time collaboration, belonging, and peer support without social pressure or awkwardness.
 
 It transforms physical presence into meaningful connection.
 
-Contributors
 
-Developed as part of a hackathon project to solve real campus social and academic connection challenges.
 
-Note
-
-Do NOT upload node_modules folder to GitHub.
-
-Always run:
-
-npm install
-after cloning the repository.
