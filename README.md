@@ -1,9 +1,9 @@
 **The Source code is provided in the master branch of the repo.**
 
 
-JoinUs — Real-Time Campus Belonging Network
+JoinIn — Real-Time Campus Belonging Network
 
-JoinUs is a hyper-local, real-time peer connection platform designed specifically for university campuses. It enables students to discover and connect with others nearby based on their current activity, intent, and availability.
+JoinIn is a hyper-local, real-time peer connection platform designed specifically for university campuses. It enables students to discover and connect with others nearby based on their current activity, intent, and availability.
 
 This platform is not social media, not a dating app, and not an event scheduler. Instead, it acts as a real-time digital layer over the physical campus, helping students form meaningful academic and social connections naturally.
 
